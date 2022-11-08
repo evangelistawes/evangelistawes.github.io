@@ -1,0 +1,146 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    
+    background-color: rgb(227, 227, 227);
+    background-size: 300vh;
+    margin-left: 10%;
+    margin-right: 15%;
+
+}
+
+
+h1{
+
+    font-size:40px;
+
+}
+h2{
+
+    font-size: 25px;
+}
+section{
+    
+    height: 120px;
+    font-size:16px;
+    font-weight: bolder;
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 2);
+}
+
+h5{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+#geo, #invests, #ibovespa{
+    background-color: #ffffff;
+   
+    
+}
+
+
+header{
+
+
+border-radius: 10px;
+color: #000000;
+font-size: 25px;
+font-weight: bolder;
+font-style: italic;
+height: 12vh;
+background: #ffffff;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 999px;
+box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+header p{
+
+    font-size: 12px;
+}
+header img{
+    width: 80px;
+    height: 30px;
+}
+footer{
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+border-radius: 10px;
+font-size: 15px;
+font-weight: bold;
+height: 12vh;
+box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+
+bottom: 0;
+left: 0;
+width: 100%;
+
+
+}
+
+fieldset{
+    margin-top: 10%;
+    height: 65vh;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+#name{
+
+
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.contato{
+
+    font-size: 12px;
+ 
+}
+.cotacao{
+
+    font-size: 14px;
+    font-weight:400;
+}
+
+#freepik{
+
+    font-size: 8px;
+}
+.showinfo{
+    margin-left: 2%;
+    font-size: 11px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btn_cotation{
+    border-radius: 5px;
+    border-width: 0.2px;
+    font-weight: bold;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+    
+}
+#fonte{
+    font-size: 10px;
+
+}
+#subtitle{
+
+    margin-left: 6%;
+}
+table{
+    background-color: #ffffff;
+    border-color: #000000;
+}

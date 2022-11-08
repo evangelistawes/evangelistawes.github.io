@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/api_cotation.js" defer ></script>
+
+
+    <title>Geopolitical/Cotation</title>
+</head>
+<body background="img/buildings1.jpg" alt = "Imagens de prédios">
+    <header> 
+        <a href="index.html"><img src="img/money.png" alt="Logo Geopolitical"></a>Geopolitical
+        <p id="subtitle">How the global news will affect your invested money</p>
+    </header>
+
+    <div class = "cotacao">
+        <fieldset>
+            <h2>Cotação no momento</h2>
+            <p>Confira em tempo real a cotação das moedas sobre o real</p>
+             <p id="fonte" >Foi utilizada a API da Awesome API, com a documentação no seguinte <a href="https://docs.awesomeapi.com.br/api-de-moedas">link</a></p>
+            <br>
+            <br>
+
+            <button class="btn_cotation" id = "dolar">Valor do Dolar sobre o Real</button></br>
+
+            <div class="showinfo">
+                
+                <p id="highUSD"></p>
+                <p id ="lowUSD"></p>
+                <p id = "querytimeUSD"></p>
+             </div>
+                  
+            <button class="btn_cotation" id ="euro">Valor do Euro sobre o Real</button></br> 
+            <div class ="showinfo">
+                
+                <p id ="highEURO"></p>
+                <p id ="lowEURO"></p>
+                <p id = "querytimeEURO"></p>
+            </div>
+            
+        </fieldset>
+    </div>
+    <br>
+    <footer>
+        <nav>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cotacao.html">Cotação no momento</a></li> 
+        <li><a href="contato.html">Contato</a></li>
+        
+       
+
+    </nav>
+    </footer>
+    
+</body>
+</html>
